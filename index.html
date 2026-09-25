@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARCHE</title>
+<meta name="description" content="ARCHE — 보는 대신 하게 만드는 앱을 만듭니다. 산책 앱 홀린듯, 소설 쓰기 앱 Mistory.">
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1c1f; --muted:#5b6169;
+    --line:#e4e7ea; --card:#f7f8f9; --link:#2f5fd0;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#131518; --fg:#e8eaec; --muted:#9aa1a9;
+      --line:#2a2e33; --card:#1b1e22; --link:#8ab0ff;
+    }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Segoe UI",
+      "Noto Sans KR",sans-serif;
+    line-height:1.7; -webkit-text-size-adjust:100%;
+  }
+  .wrap{max-width:680px; margin:0 auto; padding:64px 16px 80px}
+  header{margin-bottom:48px}
+  h1{font-size:28px; letter-spacing:.02em; margin:0 0 8px}
+  .tag{color:var(--muted); margin:0; font-size:15px}
+  h2{font-size:15px; color:var(--muted); font-weight:600;
+     letter-spacing:.06em; text-transform:uppercase;
+     margin:48px 0 16px}
+  .app{
+    border:1px solid var(--line); background:var(--card);
+    border-radius:12px; padding:20px; margin-bottom:14px;
+  }
+  .app h3{margin:0 0 4px; font-size:18px}
+  .app p{margin:0 0 12px; color:var(--muted); font-size:15px}
+  a{color:var(--link)}
+  .links a{margin-right:14px; font-size:14px; white-space:nowrap}
+  .en{
+    margin-top:56px; padding-top:28px; border-top:1px solid var(--line);
+    color:var(--muted); font-size:14.5px;
+  }
+  .en h2{margin-top:0}
+  .en p{margin:0 0 10px}
+  .en strong{color:var(--fg); font-weight:600}
+  footer{
+    margin-top:48px; padding-top:20px; border-top:1px solid var(--line);
+    color:var(--muted); font-size:14px;
+  }
+  footer p{margin:4px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>ARCHE</h1>
+    <p class="tag">보는 대신 하게 만드는 앱을 만듭니다.</p>
+  </header>
+
+  <h2>앱</h2>
+
+  <div class="app">
+    <h3>홀린듯 — 도파민 디톡스 산책</h3>
+    <p>어디로 가는지 도착해야 아는 산책. 지도 없이 방향과 거리만 보여 주고,
+       화면을 꺼도 진동으로 안내합니다. 걸은 기록은 이 기기에 저장됩니다.</p>
+    <div class="links">
+      <a href="https://apps.apple.com/app/id6812606367">App Store</a>
+      <a href="./arche-pages/privacy-explorer.html">개인정보 처리방침</a>
+      <a href="./arche-pages/support-explorer.html">지원</a>
+    </div>
+  </div>
+
+  <div class="app">
+    <h3>Mistory — AI 소설 쓰기</h3>
+    <p>AI와 함께 쓰는 나만의 웹소설.</p>
+    <div class="links">
+      <a href="https://apps.apple.com/app/id6812610681">App Store</a>
+      <a href="https://mistory-app.vercel.app/privacy.html">개인정보 처리방침</a>
+    </div>
+  </div>
+
+  <h2>문의</h2>
+  <p><a href="mailto:archeisit@gmail.com">archeisit@gmail.com</a></p>
+
+  <section class="en" lang="en">
+    <h2>English</h2>
+    <p><strong>ARCHE</strong><br>
+       We make apps that get you doing instead of watching.</p>
+    <p><strong>Wanderlure</strong> — a walk where you find out where you were going
+       only when you arrive.</p>
+    <p><strong>Mistory</strong> — write your own novel, one episode at a time.</p>
+    <p>Contact <a href="mailto:archeisit@gmail.com">archeisit@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>ARCHE</p>
+    <p>&copy; 2026 ARCHE. All rights reserved.</p>
+  </footer>
+
+</div>
+</body>
+</html>
